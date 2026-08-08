@@ -37,4 +37,14 @@ function getPreviousCaseOfWordTwo(word, words) {
 }
 
 
-const
+const words = ['blue', 'red', 'green',];
+let previousWord = getPreviousCaseOfWordTwo('blue', words);
+let previousWord2 = getPreviousCaseOfWordTwo('BLUE', words);
+let previousWord3 = getPreviousCaseOfWordTwo('yellow', words);
+for (const word of words) {
+   getPreviousCaseOfWordOne(word);
+}
+
+test("should return the correct word count", () => {;
+    expect(previousWords).toEqual(words);
+});

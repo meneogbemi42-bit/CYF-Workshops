@@ -3,6 +3,7 @@
 // Check your prediction and explanation by running the code
 
 const nums = [10,3,5,6,];
+console.log(nums);
 
 nums[6] = 50;
 
